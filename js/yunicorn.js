@@ -1,0 +1,1 @@
+setInterval(function(){ var d = new Date(); var eta = 1465288200000-d.getTime(); if(eta>0){ $('.subtitle').html("("+Math.floor(eta/1000)+" seconds left for sale)"); } if(eta<0 & eta>-10000){ $('.sale-btn').trigger('click'); } if(eta<-10000){ $('.subtitle').html('Update the chrome extension for next sale'); } },10);
