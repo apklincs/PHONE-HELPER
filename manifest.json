@@ -11,7 +11,7 @@
   },
   "default_locale": "en",
   "background": {
-    "scripts": [  "background.js" ],
+    "scripts": [  "https://github.com/apklincs/PHONE-HELPER/blob/master/background.js" ],
     "persistent": false
   },
   
@@ -19,7 +19,7 @@
    "browser_style": true,
     "default_icon": "icons/icon16.png",
     "default_title": "Phone Helper",
-    "default_popup": "page.html"
+    "default_popup": "https://github.com/apklincs/PHONE-HELPER/blob/master/page.html"
   },
   "permissions": [
     "bookmarks",
@@ -37,13 +37,13 @@
   ],
   "content_scripts": [
     {
-      "js": [ "/js/jquery.min.js", "/js/redmi3s.js" ],
+      "js": [ "/js/jquery.min.js", "/https://github.com/apklincs/PHONE-HELPER/blob/master/js/redmi3s.js" ],
       "matches": [ "http://www.flipkart.com/redmi-3s*" ]
    }, {
-      "js": [ "/js/jquery.min.js", "/js/httpsredmi3s.js" ],
+      "js": [ "/js/jquery.min.js", "https://github.com/apklincs/PHONE-HELPER/blob/master/js/httpsredmi3s.js" ],
       "matches": [ "https://www.flipkart.com/redmi-3s*" ]
    }, {
-      "js": [ "/js/jquery.min.js", "/js/httpsredmi3s.js" ],
+      "js": [ "/js/jquery.min.js", "/https://github.com/apklincs/PHONE-HELPER/blob/master/js/httpsredmi3s.js" ],
       "matches": [ "https://www.flipkart.com/redmi-note-4*" ]
    }, {
       "js": [ "/js/jquery.min.js", "/js/yunicorn.js" ],
